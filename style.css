@@ -1,0 +1,19 @@
+.grids {
+display: flex;
+gap: 5rem;
+}
+
+.player-grid,
+.computer-grid {
+  display: grid;
+border: 1px solid black;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  width: 20rem;
+  height: 20rem;
+  flex-shrink: 0;
+}
+
+.grid-cell {
+  border: 1px solid black;
+}
